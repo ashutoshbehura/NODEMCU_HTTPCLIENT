@@ -31,7 +31,7 @@ void loop()
     i=0;
   }
   
-  httpurl = "http:/ 192.168.0.105/put.php?d1=";
+  httpurl = "http://192.168.0.105/put.php?d1=";
   httpurl+=String(i);
   httpurl+="&d2=";
   httpurl+=String(analogRead(A0));
